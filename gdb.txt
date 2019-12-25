@@ -1,1 +1,16 @@
+gcc process.c -o pro和gcc process.c -g -o pro 后者包含很多调试信息
+gcc process.c -O3 -o pro 优化编译
 
+gdb  quit退出 run 运行
+list查看代码 +行号 list show help 查看函数
+
+next 执行下一步 逐过程 step逐语句 print打印变量地址、值等 &var
+break 行号设置断点
+continue全速运行 run重新开始
+breakpoint断点  delete breakpoint 断点号  删除一个断点
+
+
+makefile 项目管理工具
+gcc -c 只编译不连接
+makefile两个阶段 1，自上向下建立关系树 2，自下向上执行命令
+make -C path 可以指定进入那个目录里面
